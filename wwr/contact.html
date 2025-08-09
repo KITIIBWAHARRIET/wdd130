@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Reach out to Safari Adventures Uganda for trip bookings, customer inquiries, or to give us feedback." />
+  <meta name="author" content="Kitiibwa Harriet" />
+  <title>Safari Adventures Uganda - Contact Page</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="styles/contact.css" />
+</head>
+
+<body>
+  <header>
+    <img src="images/logo.png" alt="Safari Adventures Uganda Logo" />
+    <h1>Safari Adventures Uganda</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="trips.html" class="nav-link">Trips</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<main>
+
+  <section class="employee-profiles">
+    <h2>Meet Our Team</h2>
+    <div class="team-grid">
+      <figure class="team-member">
+        <img src="images/ariana.jpeg" alt="Ariana, Lead Raft Guide" />
+        <figcaption>
+          <strong>Ariana – Lead Raft Guide</strong><br />
+          Expert river guide ensuring thrilling, safe adventures.
+        </figcaption>
+      </figure>
+
+      <figure class="team-member">
+        <img src="images/cathy.jpeg" alt="Cathy, Safety Specialist" />
+        <figcaption>
+          <strong>Cathy – Safety Specialist</strong><br />
+          Dedicated to guest safety with expert rescue skills.
+        </figcaption>
+      </figure>
+
+      <figure class="team-member">
+        <img src="images/carol.jpeg" alt="Carol, Customer Experience Manager" />
+        <figcaption>
+          <strong>Carol – Customer Experience Manager</strong><br />
+          Ensures smooth bookings and personalized customer care.
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="map-section">
+    <h2>Find Us Here</h2>
+    <div class="map-wrapper">
+      <iframe
+        class="map-frame"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1992.0822148326643!2d33.18678291612745!3d0.4427402154767986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177db51037ed7a2b%3A0xf1741cf1e54f2686!2sSource%20of%20the%20Nile%20Bridge%2C%20Jinja!5e0!3m2!1sen!2sug!4v1722269100000!5m2!1sen!2sug"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Google Map of Safari Adventures Uganda near Source of the Nile"
+      ></iframe>
+    </div>
+  </section>
+
+  <section class="contact-form-section">
+    <h2>Contact Us</h2>
+    <form class="contact-form" action="#" method="POST" novalidate>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required placeholder="Your full name" />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required placeholder="Your email address" />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required placeholder="Write your message here"></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+</main>
+
+<footer>
+  <div class="footer-wrapper">
+    <!-- Contact Info moved here -->
+    <div class="footer-section contact-info">
+      <h3>Contact</h3>
+      <p>123 River Road, Jinja, Uganda</p>
+      <p><a href="tel:+256777394104">+256 777 394 104</a></p>
+      <p><a href="mailto:info@safariadventures.ug">info@safariadventures.ug</a></p>
+    </div>
+
+    <div class="footer-section quick-links">
+      <h3>Links</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="trips.html">Trips</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Follow Us</h3>
+      <nav class="socialmedia" aria-label="Social media links">
+        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+          <img src="images/facebook.svg" alt="Facebook icon" />
+        </a>
+        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+          <img src="images/twitter.svg" alt="Twitter icon" />
+        </a>
+        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+          <img src="images/instagram.svg" alt="Instagram icon" />
+        </a>
+      </nav>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Safari Adventures Uganda</p>
+    <p>Designed by Kitiibwa Harriet | <a href="images/wireframe.jpeg" target="_blank">Wireframe</a></p>
+  </div>
+</footer>

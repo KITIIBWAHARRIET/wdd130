@@ -6,25 +6,20 @@
   <meta name="description" content="White water rafting trips and packages.">
   <title>Trips | WWR</title>
   <link rel="stylesheet" href="styles/rafting.css"/>
+
 </head>
 
 <body>
   <header>
     <img src="images/logo.png" alt="Safari Adventures Logo" />
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">W1</a></li>
-        <li><a href="#">W2</a></li>
-        <li><a href="#">W3</a></li>
-        <li><a href="#">W4</a></li>
-        <li><a href="#">W5</a></li>
-        <li><a href="#">W6</a></li>
-        <li><a href="#">W7</a></li>
-        <li><a href="trips.html" aria-current="page">Trips</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-      </ul>
-    </nav>
+      <nav>
+  <ul>
+    <li><a href="index.html" class="nav-link">Home</a></li>
+    <li><a href="about.html" class="nav-link">About</a></li>
+    <li><a href="trips.html" class="nav-link">Trips</a></li>
+    <li><a href="contact.html" class="nav-link">Contact</a></li>
+  </ul>
+</nav>
   </header>
 
   <main>
@@ -102,8 +97,43 @@
   </main>
 
   <footer>
-    <p>&copy; 2025 Brigham Young University-Idaho | All rights reserved</p>
-    <p><a href="images/trips-wireframe1.png" target="_blank">View Trips Page Wireframe</a></p>
-  </footer>
-</body>
-</html>
+  <div class="footer-wrapper">
+    <!-- Contact Info moved here -->
+    <div class="footer-section contact-info">
+      <h3>Contact</h3>
+      <p>123 River Road, Jinja, Uganda</p>
+      <p><a href="tel:+256777394104">+256 777 394 104</a></p>
+      <p><a href="mailto:info@safariadventures.ug">info@safariadventures.ug</a></p>
+    </div>
+
+    <div class="footer-section quick-links">
+      <h3>Links</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="trips.html">Trips</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Follow Us</h3>
+      <nav class="socialmedia" aria-label="Social media links">
+        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+          <img src="images/facebook.svg" alt="Facebook icon" />
+        </a>
+        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+          <img src="images/twitter.svg" alt="Twitter icon" />
+        </a>
+        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+          <img src="images/instagram.svg" alt="Instagram icon" />
+        </a>
+      </nav>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Safari Adventures Uganda</p>
+    <p>Designed by Kitiibwa Harriet | <a href="images/wireframe.jpeg" target="_blank">Wireframe</a></p>
+  </div>
+</footer>
